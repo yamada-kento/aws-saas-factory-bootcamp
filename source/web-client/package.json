@@ -1,0 +1,56 @@
+{
+  "name": "web-client",
+  "author": "Amazon Web Services",
+  "contributors": [
+    {
+      "name": "Tod Golding"
+    },
+    {
+      "name": "Judah Bernstein"
+    }
+  ],
+  "license": "Apache-2.0",
+  "private": true,
+  "devDependencies": {
+    "autoprefixer-core": "latest",
+    "grunt": ">=1.3.0",
+    "grunt-angular-templates": "latest",
+    "grunt-concurrent": "latest",
+    "grunt-contrib-clean": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-connect": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-htmlmin": "latest",
+    "grunt-contrib-imagemin": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-filerev": "latest",
+    "grunt-google-cdn2": "latest",
+    "grunt-jscs": "latest",
+    "grunt-newer": "latest",
+    "grunt-ng-annotate": "latest",
+    "grunt-postcss": "latest",
+    "grunt-svgmin": "latest",
+    "grunt-usemin": "latest",
+    "grunt-wiredep": "latest",
+    "jasmine-core": "latest",
+    "jit-grunt": "latest",
+    "jshint-stylish": "latest",
+    "karma": "latest",
+    "karma-jasmine": "latest",
+    "karma-phantomjs-launcher": "latest",
+    "phantomjs-prebuilt": "latest",
+    "time-grunt": "latest"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "karma start test/karma.conf.js"
+  },
+  "dependencies": {
+    "grunt-cli": ">=1.3.0"
+  }
+}
